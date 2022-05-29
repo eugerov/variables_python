@@ -31,5 +31,20 @@ Finalmente el programa debe imprimir dos líneas de texto por separado
   entienda de que se está hablando.
 '''
 
+from pickletools import int4
+
+
 print('Sistema de ingreso de datos')
 # Empezar aquí la resolución del ejercicio
+print('Ingrese por consola su nombre:')
+nombre = str(input())
+print('Ingrese por consola su apellido:')
+apellido = str(input())
+print('Ingrese por consola su DNI:')
+dni = int(input())
+print('Ingrese por consola su edad:')
+edad = int(input())
+print('Ingrese por consola su altura:')
+altura = float(input())
+print('Nombre completo:',nombre,' ',apellido,'DNI:',dni)
+print('Nombre completo:',nombre,' ',apellido,'Edad:',edad,'Altura:',altura)

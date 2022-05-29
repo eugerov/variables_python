@@ -43,5 +43,23 @@ https://www.pythonforbeginners.com/dictionary/python-split
 Cualquier duda con el método split pueden consultarla por el campus
 '''
 
+from ssl import SSLSocket
+
+
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
+print('Ingrese por consola nombre 1:')
+padre1 = str(input())
+
+print('Ingrese por consola nombre 2:')
+padre2 = str(input())
+
+print('Ingrese por consola mobre del hijo:')
+nombre = str(input())
+
+nombre_completo='juan,alvarez,sergio,perez,ivan,noble'
+valores= nombre_completo.split()
+
+print((valores[0]))
+print((valores[3]))
+print((valores[-1]))

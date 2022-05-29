@@ -38,3 +38,14 @@ Cualquier duda con estos métodos pueden consultarla por el campus
 
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
+print('Ingrese por consola su nombre:')
+nombre = str(input())
+
+minuscula = nombre.lower()
+print(minuscula)
+
+mayuscula=nombre.upper()
+print(mayuscula)
+
+grande=nombre.capitalize()
+print(grande)
